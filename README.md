@@ -1,5 +1,7 @@
 # v-loading-directive
 
+![NPM Downloads](https://img.shields.io/npm/dt/v-loading-directive)
+
 A simple loading indicator for your Vue project.
 
 ## Usage
@@ -14,7 +16,7 @@ import VLoading from 'v-loading-directive';
 Vue.directive('loading', VLoading);
 
 // or locally
-import loading from 'v-loading';
+import loading from 'v-loading-directive';
 
 export default {
   directives: {
